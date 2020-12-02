@@ -10,7 +10,6 @@ defmodule AdventOfCode.Day01Test do
     assert 514579 = result
   end
 
-  # @tag :skip
   test "part2" do
     input = [1721, 979, 366, 299, 675, 1456]
     result = part2(input)

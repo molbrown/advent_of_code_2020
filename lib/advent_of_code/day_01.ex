@@ -2,8 +2,6 @@ defmodule AdventOfCode.Day01 do
   @sum 2020
 
   def part1(input) do
-    # input |> IO.inspect(label: "Input")
-
     [{a, b} | _input] = for number_1 <- input, number_2 <- input, number_1 + number_2 == @sum,
               do: {number_1, number_2}
 
